@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="AWS">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="spring-test-3.0.7.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-test-3.0.7.RELEASE/spring-test-3.0.7.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.6.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-core-2.6.7/jackson-core-2.6.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-3.0.7.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-3.0.7.RELEASE/spring-beans-3.0.7.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-buffer-4.1.17.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/netty-buffer-4.1.17.Final/netty-buffer-4.1.17.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient-4.5.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient-4.5.2/httpclient-4.5.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.45-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.45-bin/mysql-connector-java-5.1.45-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-transport-4.1.17.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/netty-transport-4.1.17.Final/netty-transport-4.1.17.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-handler-4.1.17.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/netty-handler-4.1.17.Final/netty-handler-4.1.17.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-common-4.1.17.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/netty-common-4.1.17.Final/netty-common-4.1.17.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-codec-1.9/commons-codec-1.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-resolver-4.1.17.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/netty-resolver-4.1.17.Final/netty-resolver-4.1.17.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/joda-time-2.8.1/joda-time-2.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-2.2.2/gson-2.2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.6.7.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.6.7.1/jackson-databind-2.6.7.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-codec-http-4.1.17.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/netty-codec-http-4.1.17.Final/netty-codec-http-4.1.17.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjweaver.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aspectjweaver/aspectjweaver">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ion-java-1.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ion-java-1.0.2/ion-java-1.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.3/commons-logging-1.1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="freemarker-2.3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/freemarker-2.3.9/freemarker-2.3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-1.11.292.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-1.11.292/aws-java-sdk-1.11.292">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.fasterxml.jackson.databind.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/com.fasterxml.jackson.databind/com.fasterxml.jackson.databind">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-dataformat-cbor-2.6.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-dataformat-cbor-2.6.7/jackson-dataformat-cbor-2.6.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail-api-1.4.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.mail-api-1.4.6/javax.mail-api-1.4.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jmespath-java-1.11.292.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jmespath-java-1.11.292/jmespath-java-1.11.292">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-swf-build-tools-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-swf-build-tools-1.1/aws-swf-build-tools-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore-4.4.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpcore-4.4.4/httpcore-4.4.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.0.7.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-3.0.7.RELEASE/spring-core-3.0.7.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-codec-4.1.17.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/netty-codec-4.1.17.Final/netty-codec-4.1.17.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.0.7.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-3.0.7.RELEASE/spring-context-3.0.7.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-json.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/java-json/java-json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.6.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-annotations-2.6.0/jackson-annotations-2.6.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjrt-1.8.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aspectjrt-1.8.2/aspectjrt-1.8.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="AWS"/>
+        <property name="java-output-path" value="/AWS/build/classes"/>
+    </wb-module>
+</project-modules>
