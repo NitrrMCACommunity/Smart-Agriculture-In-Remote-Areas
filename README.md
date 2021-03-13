@@ -7,6 +7,8 @@ There are many decisions which system is going make by analyzing the field’s d
 1.	Weather Irrigation is required for the particular field or not.
 2.	What is the best crop for the particular fields?
 3.	What is the best time of sowing?
+
+
 These all decisions are in ordered to increase the productivity of fields.
 
 Project uses Python for Analytics purpose , Java for web services and Arduino programming for hardware 
